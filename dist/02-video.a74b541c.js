@@ -544,6 +544,7 @@ const onPlay = function(data) {
 };
 player.on("timeupdate", _.throttle(onPlay, 1000));
 const currentTime = localStorage.getItem(CURRENT_TIME);
+//console.log(currentTime)
 player.setCurrentTime(currentTime).then(function(seconds) {}).catch(function(error) {
     error.name;
 }); //    Напиши скрипт, який буде зберігати
