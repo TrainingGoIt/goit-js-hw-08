@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/Victoria257/goit-js-hw-08#readme",
   "devDependencies": {
-    "parcel": "^2.8.2",
-    "posthtml-include": "^1.7.4"
+    "parcel": "^2.8.2"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
