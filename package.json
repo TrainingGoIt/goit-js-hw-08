@@ -2,11 +2,30 @@
   "name": "goit-js-hw-08",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoria257/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victoria257/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/Victoria257/goit-js-hw-08#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.11.0"
+  }
 }
